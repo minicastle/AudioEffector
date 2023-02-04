@@ -9,7 +9,18 @@
 이러한 부분을 조금이라도 대체할수 없을까? 하는 생각에 가장대표적으로 사용하는 2가지 기능인 에코와 잡음제거 기능을 가진 Desctop App을 개발하게 되었습니다.
 
 ---
-## 2. 개발과정
+## 2. 추출방법 & 다운로드 방법
+- 추출방법
+> 1. git clone https://github.com/minicastle/AudioEffector.git  [DIR]
+> - Git Hub에서 파일을 다운받는다.
+> 2. npm install & npm run build
+> - 실행에 필요한 파일을 다운받고 build를 통해 최적화된 파일을 생성한다.
+> 3. npm run electronbuild OR npm run electronbuild32
+> - 파일을 설치할 컴퓨터가 64비트라면 electronbuild 32비트라면 electronbuild32를 입력한다.
+> 4. dist 경로에 위치한 Audio Effector.exe 파일을 설치한다.
+
+---
+## 3. 개발과정
 ---
 >## 1. CRA(Create React App)을 이용하여 React 환경구축
 > -  간단한 Clone Coding 프로젝트 이기 때문에 CRA를 통해 개발환경을 구축하였습니다.
@@ -22,7 +33,7 @@
 > - Pizzicato 라이브러리를 이용하여 WebAudioApi를 쉽게 제어할수 있게 했습니다. <br>
 WebAudioApi는 기능이 다양하고 활용도가 높기는 하지만 활용 예시가 많지 않아 사용하는데 있어 어려움이 있었습니다. 그래서 npm에서 사용방법을 보고 사용할수 있는 Pizzicato를 이용하여 WebAudioApi를 사용하였습니다.
 ---
-## 3. 개발이후 생각한 사이트 개선점 & 배운점
+## 4. 개발이후 생각한 사이트 개선점 & 배운점
 ---
 ## 개선점
 > 1. UI개선
