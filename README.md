@@ -10,21 +10,21 @@
 
 ---
 ## 2. 추출방법 & 다운로드 방법
-- 추출방법
-> 1. git clone https://github.com/minicastle/AudioEffector.git  [DIR]
-> - Git Hub에서 파일을 다운받는다.
-> 2. npm install & npm run build
-> - 실행에 필요한 파일을 다운받고 build를 통해 최적화된 파일을 생성한다.
-> 3. npm run electronbuild OR npm run electronbuild32
-> - 파일을 설치할 컴퓨터가 64비트라면 electronbuild 32비트라면 electronbuild32를 입력한다.
-> 4. dist 경로에 위치한 Audio Effector.exe 파일을 설치한다.
+---
+1. git clone https://github.com/minicastle/AudioEffector.git  [DIR]
+    - Git Hub에서 파일을 다운받는다.
+2. npm install & npm run build
+    - 실행에 필요한 파일을 다운받고 build를 통해 최적화된 파일을 생성한다.
+3. npm run electronbuild OR npm run electronbuild32
+    - 파일을 설치할 컴퓨터가 64비트라면 electronbuild 32비트라면 electronbuild32를 입력한다.
+4. dist 경로에 위치한 Audio Effector.exe 파일을 설치한다.
 
 ---
 ## 3. 개발과정
 ---
 >## 1. CRA(Create React App)을 이용하여 React 환경구축
-> -  간단한 Clone Coding 프로젝트 이기 때문에 CRA를 통해 개발환경을 구축하였습니다.
->> CRA는 사용하지 않는 기능들도 들어가기 때문에 최적화에는 용이하지 않은 방법이지만 간단한 Clone 프로젝트 이기 때문에 개발환경을 자동으로 설정해주는 CRA를 사용하였습니다.
+> -  간단한 Original Project 이기 때문에 CRA를 통해 개발환경을 구축하였습니다.
+>> CRA는 사용하지 않는 기능들도 들어가기 때문에 최적화에는 용이하지 않은 방법이지만 간단한 Original Project 이기 때문에 개발환경을 자동으로 설정해주는 CRA를 사용하였습니다.
 >## 2. ElctronJS를 이용한 Desctop App 환경구축
 > - ElectronJS는 기존의 web site를 개발하는 방법과 동일하게 개발한후 이를 Desctop App으로 변환해주는 라이브러리 입니다. 
 >## 3. Redux를 이용한 현재상태 저장
@@ -55,6 +55,7 @@ WebAudioApi는 기능이 다양하고 활용도가 높기는 하지만 활용 �
 |[Colco(Clone)](https://minicastle.github.io/Clone-Colco/)|[git](https://github.com/minicastle/Clone-Colco)|[Colco(origin)](https://colco.app/)|
 |[Jolly-Flow(Clone)](https://minicastle.github.io/Clone-JollyFlow/)|[git](https://github.com/minicastle/Clone-JollyFlow)|[Jolly-Flow(origin)](https://jollyflow.webflow.io/)|
 |[kakao(Clone)](https://minicastle.github.io/Clone-Kakao/)|[git](https://github.com/minicastle/Clone-kakao)|[kakao(origin)](https://www.kakaocorp.com/page/)|
+|Audio Effector(original)|[git](https://github.com/minicastle/AudioEffector)||
 
 > [정성민의 GitHub](https://github.com/minicastle)
 
